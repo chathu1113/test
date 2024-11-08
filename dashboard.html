@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gray-100">
+  <nav class="flex items-center justify-between px-6 py-4 bg-blue-600 text-white">
+    <h1 class="text-xl font-bold">Admin Dashboard</h1>
+    <button id="logoutButton" class="px-3 py-2 bg-red-500 rounded">Logout</button>
+  </nav>
+  <div class="p-6">
+    <h2 class="text-2xl">Welcome to the Dashboard!</h2>
+    <p class="mt-4 text-gray-700">This is a secured admin area.</p>
+  </div>
+  <script src="./firebase-config.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
